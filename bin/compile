@@ -44,7 +44,7 @@ topic "Fetching .debs for xserver-xorg-core libgl1-mesa-dri xvfb libglide3 xfs u
 apt-get $APT_OPTIONS -y -d install xserver-xorg-core libgl1-mesa-dri xvfb libglide3 xfs unzip | indent
 
 topic "Fetching firefox"
-FIREFOX_URL="http://packages.linuxmint.com/pool/import/f/firefox/firefox-l10n-en-gb_39.0~linuxmint1+betsy_amd64.deb"
+FIREFOX_URL="http://packages.linuxmint.com/pool/import/f/firefox/firefox_39.0~linuxmint1+betsy_amd64.deb"
 curl $FIREFOX_URL -o $APT_CACHE_DIR/archives/firefox-l10n-en-gb_39.0~linuxmint1+betsy_amd64.deb
 
 topic "Fetching google chrome"
