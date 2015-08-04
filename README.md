@@ -1,4 +1,6 @@
-# heroku-buildpack-apt
+A work-in-progress fork of the original Selenium buildpack. Did not end up getting Chrome to work, but did however succeed with getting Firefox to install properly. Have since proceeded to use Selenium's Docker images here: https://github.com/SeleniumHQ/docker-selenium
+
+# heroku-buildpack-selenium
 
 Add support for apt-based dependencies during both compile and runtime.
 
