@@ -1,4 +1,5 @@
 A work-in-progress fork of the original Selenium buildpack. Did not end up getting Chrome to work, but did however succeed with getting Firefox to install properly. Have since proceeded to use Selenium's Docker images here: https://github.com/SeleniumHQ/docker-selenium
+http://carlosbecker.com/posts/selenium-grid-docker-compose/
 
 # heroku-buildpack-selenium
 
